@@ -1,0 +1,135 @@
+/* ==========================
+   Global Dark Theme
+   ========================== */
+body {
+  background: #121212; /* Dark background */
+  color: #f1f1f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card Styling */
+.auth-card {
+  margin: auto;
+  border-radius: 1rem;
+  transition: max-width 0.3s ease;
+  background: #1e1e1e; /* Dark card */
+  color: #f1f1f1;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Default size for login */
+.auth-card.login-mode {
+  max-width: 500px;
+}
+
+/* Wider size for register (same width for now) */
+.auth-card.register-mode {
+  max-width: 500px;
+}
+
+/* ==========================
+   Form Sections
+   ========================== */
+.form-section {
+  background: #2a2a2a; /* Dark form section */
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #3a3a3a;
+}
+
+.form-section h6 {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  color: #bbb;
+}
+
+/* Inputs */
+.form-control,
+.form-select,
+textarea {
+  font-size: 0.9rem;
+  background: #333;
+  border: 1px solid #555;
+  color: #f1f1f1;
+  border-radius: 0.5rem;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  background: #2c2c2c;
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* ==========================
+   Navigation Tabs
+   ========================== */
+.nav-pills .nav-link {
+  color: #ccc;
+  background: #2a2a2a;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+}
+
+.nav-pills .nav-link:hover {
+  background: #3a3a3a;
+}
+
+.nav-pills .nav-link.active {
+  background: #0d6efd;
+  color: #fff;
+}
+
+/* ==========================
+   Buttons
+   ========================== */
+.btn {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.btn-primary {
+  background: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #0b5ed7;
+}
+
+.btn-success {
+  background: #198754;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #157347;
+}
+
+/* ==========================
+   Global Utilities
+   ========================== */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+small, label {
+  color: #bbb;
+}
